@@ -2,13 +2,13 @@ const Home = () => {
   return (
     <>
       <div className="card  bg-base-100 shadow-2xl m-10 md:card-side md:w-1/2 md:mx-auto md:my-10">
-        <figure className="h-28 w-full md:h-auto md:w-auto">
+        <figure className="h-28 w-full md:h-auto md:w-auto relative">
           <img
             className="w-full object-fill md:w-auto"
             src="https://picsum.photos/seed/picsum/200/300"
             alt="Album"
           />
-          <div className="card border-solid border-2 border-secundary">
+          <div className="card border-solid border-2 border-neutral h-auto w-auto p-4 absolute top-5 text-center">
             <p>25°</p>
             <p>2/11/2023</p>
           </div>
